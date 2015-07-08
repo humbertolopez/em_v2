@@ -1,0 +1,187 @@
+/*
+Theme: Escumovil® V2
+Author: Humberto López
+*/
+body {
+	margin: 0;
+	font-size: 100%;
+	color: #414141;
+	font-family: Arial, sans-serif;
+}
+.block {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+/* header */
+header {
+	width: 100%;
+	position: fixed;
+	top: 70px;
+	z-index: 2;
+	background: rgba(255,255,255,1);
+}
+#nav, .inner-contacto {
+	width: 1140px;
+	margin: auto;
+	clear: both;
+}
+#info-contacto {
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	z-index: 3;
+}
+#info-contacto p {
+	font-size: 0.750em;
+	margin: 0;
+}
+#info-contacto div {
+	float: right;
+}
+#menu {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-item {
+	display: table-cell;
+	padding: 15px;
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+}
+.menu-item a {
+	text-decoration: none;
+	color: #414141;
+}
+.menu-item:hover a {
+	color: #fff;
+}
+.menu-item:hover {
+	background: #77C043;
+}
+.menu-item:hover > ul {
+	display: block;
+}
+.sub-menu {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+.sub-menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.sub-menu-item {
+	list-style: none;
+	padding: 10px 15px;
+	background: #414141;
+}
+.sub-menu-item:hover {
+	background: #77C043;
+}
+.logo {
+	float: left;
+	height: 32px;
+	width: auto;
+	margin: 10px;
+}
+/* header */
+/* portada */
+#portada {
+	width: 100%;
+}
+.industriales, .eventos, .especiales, .empresa {
+	width: 25%;
+	height: 100vh;
+	max-height: 1080px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#portada div:hover img {
+	height: 110%;
+	width: auto;
+	opacity: 0.75;
+}
+#portada div:hover h1 {
+	border-bottom: 1px solid #fff;
+}
+#portada div:hover p {
+	opacity: 1.0;
+	padding: 0;
+}
+#portada > div {
+	transition: background .35s;
+}
+#portada > div:hover {
+	background: rgba(0,0,0,0.85);
+}
+#portada img {
+	position: absolute;
+	left: -135%;
+	height: 100%;
+	width: auto;
+	transition: height .35s,  opacity .35s;
+}
+.inner-portada {
+	width: 90%;
+	padding: 0 5%;
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+}
+#portada h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	z-index: 1;
+	color: #fff;
+	text-shadow: 0 0 15px #000;
+	text-align: center;
+	transition: border-bottom .55s;
+}
+#portada p {
+	padding: 15px 0 0 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-align: center;	
+	color: #fff;
+	text-shadow: 0 0 15px #000;
+	opacity: 0.0;
+	transition: opacity .55s;
+	transition: padding .55s;
+}
+/* portada */
+/* industriales */
+#industriales, #eventos {
+	height: 100vh;
+	max-height: 1080px;
+	width: 100%;	
+}
+#industriales {
+	background: #ecf6e5;
+}
+#eventos {
+	background: #fbe3d4;
+}
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+}
+.inner {
+	max-width: 1140px;
+	height: 100vh;
+	margin: auto;
+	position: relative;	
+}
+.content {
+	width: 100%;
+	position: absolute;
+	top: 45%;
+}
+/* industriales */
