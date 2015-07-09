@@ -185,3 +185,19 @@ h1 {
 	top: 45%;
 }
 /* industriales */
+/* paginas de producto */
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;	
+}
+#producto ul {
+	margin: 0;
+	padding: 0;
+}
+#producto li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(img/bullet.svg);
+}
+/* paginas de producto */

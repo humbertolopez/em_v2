@@ -30,7 +30,7 @@
 
 	<header>		
 		<div id="nav" class="block">
-			<a href="#portada"><img class="logo" src="img/logo.svg"></a>
+			<a href="#portada"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg"></a>
 			<ul id="menu">
 				<li class="menu-item">
 					<a href="#eventos">Productos para Eventos</a>

@@ -2,28 +2,28 @@
 	<!-- portada -->
 	<section id="portada" class="block">
 		<div class="industriales">
-			<a href="#industriales"><img src="img/industrial.jpg"></a>
+			<a href="#industriales"><img src="<?php echo get_template_directory_uri(); ?>/img/industrial.jpg"></a>
 			<div class="inner-portada">
 				<h1>Productos Industriales Escumovil®</h1>
 				<p>Este es un hermoso párrafo que sirve como descripción para los productos industriales de Escumovil®.</p>
 			</div>
 		</div>
 		<div class="eventos">
-			<a href="#eventos"><img src="img/eventos.jpg"></a>
+			<a href="#eventos"><img src="<?php echo get_template_directory_uri(); ?>/img/eventos.jpg"></a>
 			<div class="inner-portada">
 				<h1>Productos Escumovil® para Eventos</h1>
 				<p>Este es un hermoso párrafo que sirve como descripción para los productos Escumovil® para eventos.</p>
 			</div>
 		</div>
 		<div class="especiales">
-			<a href=""><img src="img/especiales.jpg"></a>
+			<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/especiales.jpg"></a>
 			<div class="inner-portada">
 				<h1>Proyectos Especiales</h1>
 				<p>Este es un hermoso párrafo que sirve como descripción para los proyectos especiales hechos por Escumovil®.</p>
 			</div>
 		</div>
 		<div class="empresa">
-			<a href=""><img src="img/empresa.jpg"></a>
+			<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/empresa.jpg"></a>
 			<div class="inner-portada">
 				<h1>La Empresa</h1>
 				<p>Este es un hermoso párrafo que sirve como descripción para la empresa, Escumovil®.</p>
@@ -53,9 +53,5 @@
 		</div>
 	</section>
 	<!-- eventos -->
-	
-	<footer>
-	</footer>
 
-</body>
-</html>
+<?php get_footer(); ?>
