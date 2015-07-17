@@ -186,9 +186,15 @@ h1 {
 }
 /* industriales */
 /* paginas de producto */
+#producto {
+	width: 100%;
+}
+#producto h1 {
+	font-weight: 700;
+}
 h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 300;	
+	font-weight: 700;	
 }
 #producto ul {
 	margin: 0;
@@ -197,7 +203,33 @@ h3 {
 #producto li {
 	margin: 0;
 	padding: 0;
-	list-style: none;
-	background: url(img/bullet.svg);
+	font-size: 0.85em;
+	list-style: none;	
+}
+#producto li:before {
+	content: "◊ ";
+	color: #77C043;
+}
+.contentleft {
+	width: 50%;
+	float: left;
+}
+.innerproducto {
+	max-width: 1140px;
+	margin: 155px auto 0 auto;
+	position: relative;
+}
+#dimensiones {
+	border: 0;
+	border-spacing: 0;
+	margin: 1em 0;
+	font-size: 0.75em;
+}
+#dimensiones td {
+	padding: 0.3em 0.5em;
+}
+#dimensiones tr:nth-child(odd) {
+	background: #f1f1f1;
+	border: 0;
 }
 /* paginas de producto */

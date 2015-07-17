@@ -219,6 +219,74 @@
 	}
 
 	/* ahora si, guarda todas las dimensiones */ 
-	add_action('save_post', 'dimensiones_meta_save');	
+	add_action('save_post', 'dimensiones_meta_save');
+
+	/* custom metabox carga de imagenes para slider */
+	function wp_custom_slide_metabox() {
+		add_meta_box('wp_custom_slide','Agrega un slide','wp_custom_slide_call','post','side');
+		add_meta_box('wp_custom_slide','Agrega un slide','slide-domain','wp_custom_slide_call','page','side');
+	}
+
+	/* se añade la función */
+	add_action('add_meta_boxes','wp_custom_slide_metabox');
+
+	/* callback, lo que wordpress muestra en administración */
+	function wp_custom_slide_call() {
+		wp_nonce_field('wp_custom_slide_metabox','wp_custom_slide_nonce');
+		$slide_stored_meta = get_post_meta(get_the_ID());
+		?>
+			<p>
+				<label for="meta-slide"><?php _e('Elige una fotografía para agregarla como slide a este post') ?></label>
+				<input type="text" name="meta-slide" id="meta-slide" value="<?php echo $slide_stored_meta['meta-slide'][0]; ?>">
+				<input type="button" id="meta-slide-button" class="button" value="<?php _e('Elige o carga un slide') ?>">
+			</p>
+		<?php
+	}
+
+	/* carga el script para cargar nuevo slide */
+	function slide_image_enqueue() {
+		global $typenow;
+		if($typenow == 'post' or $typenow == 'page') {
+
+			wp_enqueue_media();
+			//
+			wp_register_script(
+				'meta-slide-script',
+				get_stylesheet_directory_uri() . '/js/custom-slide.js',
+				array('jquery')
+			);
+			wp_localize_script(
+				'meta-slide-script',
+				'meta_image',
+				array(
+					'title' => __('Elige o carga un slide','slide-domain'),
+					'button' => __('Usa esta imagen como slide','slide-domain'),
+				)
+			);
+			wp_enqueue_script('meta-slide-script');
+		} 
+	}
+
+	add_action('admin_enqueue_scripts','slide_image_enqueue');
+
+	/* guarda el nuevo slide en la base de datos */	
+	function slide_meta_save($post_id){
+		/* estado de guardado */
+		$is_autosave = wp_is_post_autosave($post_id);
+		$is_revision = wp_is_post_autosave($post_id);
+		$is_valid_nonce = ( isset($_POST['']) && wp_verify_nonce($_POST['wp_custom_slide_nonce'],basename(__FILE__))) ? 'true' : 'false';
+
+		/* termina el script segun el estado del post */
+		if ($is_autosave || $is_revision || !$is_valid_nonce ) {
+			return;
+		}
+
+		if(isset($_POST['meta-slide'])) {
+		   	update_post_meta($post_id,'meta-slide',$_POST['meta-slide']);		   	
+		}
+
+	}
+
+	add_action('save_post','slide_meta_save');
 
 ?>
