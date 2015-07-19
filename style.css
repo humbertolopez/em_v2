@@ -255,12 +255,7 @@ h3 {
 	color: #77C043;
 }
 .contentleft {
-	width: 47%;
-	float: left;
-	padding: 1.5%;
-}
-.contentcuarto {
-	max-width: 22%;
+	max-width: 30%;
 	float: left;
 	padding: 1.5%;
 }
@@ -282,5 +277,26 @@ h3 {
 #dimensiones tr:nth-child(odd) {
 	background: #f1f1f1;
 	border: 0;
+}
+#serviciosremolque {
+	border: 0;
+	border-collapse: collapse;
+}
+#serviciosremolque td, #serviciosremolque th {
+	padding: 10px 0;
+}
+#serviciosremolque th {
+	border-bottom: solid 1px #77C043;
+}
+#serviciosremolque td img {
+	height: 35px;
+	width: auto;
+	margin: 0 5px;
+}
+#serviciosremolque td {
+	font-size: 0.875em;
+}
+#serviciosremolque h3 {
+	margin: 0;
 }
 /* paginas de producto */

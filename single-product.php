@@ -11,13 +11,18 @@
 			<?php the_content(); ?>
 			<?php endwhile; endif; ?>
 		</div>
-		<div class="contentcuarto">
+		<?php if(in_category('remolques')) {
+			?>
+				<?php get_template_part('servicios-remolques'); ?>
+			<?php
+			}
+		?>
+		<div class="contentleft">
 			<img src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
 		</div>
-		<div class="contentcuarto">
+		<div class="contentleft">
 			<?php get_template_part('dimensiones'); ?>
 		</div>
-
 	</div>
 </section>
 
