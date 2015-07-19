@@ -12,24 +12,14 @@
 	<!-- styles -->
 </head>
 
-<body>
+<body id="home">
 
 	<!-- contacto -->
-	<div id="info-contacto">
-		<div class="inner-contacto block">
-			<div class="tel">
-				<p>(01 800) 087 4130</p>
-			</div>
-			<div class="serv-nac">
-				<p>Servicio Nacional</p>
-				<p>Guadalajara — Ciudad de México — Estado de México — Cancún</p>
-			</div>
-		</div>
-	</div>
+	<?php get_template_part('info-contacto'); ?>
 	<!-- /contacto -->
 	<!-- header -->
-	<header>		
-		<div id="nav" class="block">
+	<header>
+		<div id="nav">
 			<a href="#portada"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg"></a>
 			<ul id="menu">
 				<li class="menu-item">
@@ -59,7 +49,7 @@
 						<li class="sub-menu-item"><a href="">Remolques con Publicidad</a></li>
 						<li class="sub-menu-item"><a href="">Construcciones Especiales</a></li>
 						<li class="sub-menu-item"><a href="">Baños Urbanos</a></li>
-						<li class="sub-menu-item"><a href="">Servicios Sanitarios en Casetas de Cobro</a></li>						
+						<li class="sub-menu-item"><a href="">Servicios Sanitarios en Casetas de Cobro</a></li>
 					</ul>
 				</li>
 				<li class="menu-item">

@@ -11,6 +11,16 @@
 				</tr>
 			<?php
 		}
+		/* checa si alto interior tiene valor */
+		$key_altoint = get_post_meta(get_the_ID(),'altoint',true);
+		if(!empty($key_altoint)){
+			?>
+				<tr>
+					<td>Alto interior</td>
+					<td><?php echo $key_altoint; ?> metros</td>
+				</tr>
+			<?php
+		}
 		/* checa si ancho tiene valor */
 		$key_ancho = get_post_meta(get_the_ID(),'ancho',true);
 		if(!empty($key_ancho)){
@@ -18,6 +28,16 @@
 				<tr>
 					<td>Ancho</td>
 					<td><?php echo $key_ancho; ?> metros</td>
+				</tr>
+			<?php
+		}
+		/* checa si ancho interior tiene valor */
+		$key_anchoint = get_post_meta(get_the_ID(),'anchoint',true);
+		if(!empty($key_anchoint)){
+			?>
+				<tr>
+					<td>Ancho interior</td>
+					<td><?php echo $key_anchoint; ?> metros</td>
 				</tr>
 			<?php
 		}
@@ -38,6 +58,16 @@
 				<tr>
 					<td>Profundidad</td>
 					<td><?php echo $key_profundidad; ?> metros</td>
+				</tr>
+			<?php
+		}
+		/* checa si profundidad interior tiene valor */
+		$key_profundidadint = get_post_meta(get_the_ID(),'profundidadint',true);
+		if(!empty($key_profundidadint)){
+			?>
+				<tr>
+					<td>Profundidad interior</td>
+					<td><?php echo $key_profundidadint; ?> metros</td>
 				</tr>
 			<?php
 		}

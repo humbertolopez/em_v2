@@ -2,11 +2,15 @@
 Theme: Escumovil® V2
 Author: Humberto López
 */
-body {
+body, #single {
 	margin: 0;
 	font-size: 100%;
 	color: #414141;
 	font-family: Arial, sans-serif;
+}
+#single {
+	background: url(img/bg.svg) no-repeat center top;
+	background-size: 100% auto;
 }
 .block {
 	display: block;
@@ -14,30 +18,54 @@ body {
 	clear: both;
 }
 /* header */
-header {
+#single header {
+	width: 100%;
+	z-index: 2;
+	background: rgba(255,255,255,1);
+	box-shadow: #414141 0 0 15px;
+}
+#home header {
 	width: 100%;
 	position: fixed;
 	top: 70px;
 	z-index: 2;
 	background: rgba(255,255,255,1);
+	box-shadow: #414141 0 0 15px;
 }
 #nav, .inner-contacto {
 	width: 1140px;
 	margin: auto;
 	clear: both;
 }
-#info-contacto {
+#home .info-contacto {
 	width: 100%;
 	position: absolute;
 	margin: auto;
 	z-index: 3;
 }
-#info-contacto p {
+#single .info-contacto {
+	width: 100%;
+	z-index: 3;
+	margin: auto;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.info-contacto {
+	background: linear-gradient(to bottom,rgba(255,255,255,1),rgba(255,255,255,0.0));
+}
+.info-contacto img {
+	height: 1.75em;
+	width: auto;
+	line-height: 1.75em;
+}
+.info-contacto p {
 	font-size: 0.750em;
 	margin: 0;
 }
-#info-contacto div {
+.inner-contacto div {
 	float: right;
+	padding: 1% 0.5% 2%;
 }
 #menu {
 	float: right;
@@ -90,6 +118,14 @@ header {
 	height: 32px;
 	width: auto;
 	margin: 10px;
+}
+.tel h4 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+h4 {
+	font-size: 0.875em;
+	margin: 0;
 }
 /* header */
 /* portada */
@@ -186,15 +222,23 @@ h1 {
 }
 /* industriales */
 /* paginas de producto */
+.single-header {
+	padding: 1.5%;
+	border-bottom: solid 1px #77C043;
+}
 #producto {
 	width: 100%;
 }
 #producto h1 {
-	font-weight: 700;
+	font-size: 2.25em;
+	margin: 0 0 1em 0;
+}
+#producto p {
+	font-size: 0.85em;
 }
 h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 700;	
+	font-weight: 300;
 }
 #producto ul {
 	margin: 0;
@@ -204,19 +248,26 @@ h3 {
 	margin: 0;
 	padding: 0;
 	font-size: 0.85em;
-	list-style: none;	
+	list-style: none;
 }
 #producto li:before {
 	content: "◊ ";
 	color: #77C043;
 }
 .contentleft {
-	width: 50%;
+	width: 47%;
 	float: left;
+	padding: 1.5%;
+}
+.contentcuarto {
+	max-width: 22%;
+	float: left;
+	padding: 1.5%;
 }
 .innerproducto {
 	max-width: 1140px;
-	margin: 155px auto 0 auto;
+	margin: auto;
+	padding: 1.5% 0;
 	position: relative;
 }
 #dimensiones {

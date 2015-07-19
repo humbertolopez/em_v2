@@ -106,13 +106,13 @@
     	}
 	}
 
-	/* ahora si, guardalo todo */ 
+	/* ahora si, guardalo todo */
 	add_action('save_post', 'remolques_meta_save');
 
 	/* metabox para dimensiones */
 	function dimensiones_custom_meta() {
 			add_meta_box('dimensiones_meta', 'Tabla de Dimensiones', 'dimensiones_meta_callback', 'post','side','high');
-		}	
+		}
 
 	add_action('add_meta_boxes','dimensiones_custom_meta');
 
@@ -123,11 +123,19 @@
 		?>
 			<p>
 				<label for="alto">Alto</label>
-				<input size="4" type="text" name="alto" id="alto" value="<?php echo $dimensiones_stored_meta['alto'][0]; ?>">				
+				<input size="4" type="text" name="alto" id="alto" value="<?php echo $dimensiones_stored_meta['alto'][0]; ?>">
+			</p>
+			<p>
+				<label for="altoint">Altura interior</label>
+				<input size="4" type="text" name="altoint" id="altoint" value="<?php echo $dimensiones_stored_meta['altoint'][0]; ?>">
 			</p>
 			<p>
 				<label for="ancho">Ancho</label>
 				<input size="4" type="text" name="ancho" id="ancho" value="<?php echo $dimensiones_stored_meta['ancho'][0]; ?>">
+			</p>
+			<p>
+				<label for="anchoint">Ancho Interior</label>
+				<input size="4" type="text" name="anchoint" id="anchoint" value="<?php echo $dimensiones_stored_meta['anchoint'][0]; ?>">
 			</p>
 			<p>
 				<label for="largo">Largo</label>
@@ -138,12 +146,16 @@
 				<input size="4" type="text" name="profundidad" id="profundidad" value="<?php echo $dimensiones_stored_meta['profundidad'][0]; ?>">
 			</p>
 			<p>
+				<label for="profundidadint">Profundidadint Interior</label>
+				<input size="4" type="text" name="profundidadint" id="profundidadint" value="<?php echo $dimensiones_stored_meta['profundidadint'][0]; ?>">
+			</p>
+			<p>
 				<label for="tanque">Capacidad de Tanque</label>
 				<input size="4" type="text" name="tanque" id="tanque" value="<?php echo $dimensiones_stored_meta['tanque'][0]; ?>">
 			</p>
 			<p>
 				<label for="peso">Peso</label>
-				<input size="4" type="text" name="peso" id="peso" value="<?php echo $dimensiones_stored_meta['peso'][0]; ?>">				
+				<input size="4" type="text" name="peso" id="peso" value="<?php echo $dimensiones_stored_meta['peso'][0]; ?>">
 			</p>
 			<p>
 				<label for="colores">Colores</label>
@@ -154,7 +166,7 @@
 				<input size="4" type="text" name="tiron" id="tiron" value="<?php echo $dimensiones_stored_meta['tiron'][0]; ?>">
 			</p>
 			<p>
-				<label for="tiron">Número de personas</label>
+				<label for="personas">Número de personas</label>
 				<input size="4" type="text" name="personas" id="personas" value="<?php echo $dimensiones_stored_meta['personas'][0]; ?>">
 			</p>
 		<?php
@@ -177,9 +189,19 @@
         	update_post_meta( $post_id, 'alto', sanitize_text_field( $_POST[ 'alto' ] ) );
     	}
 
+		/* altura interior */
+		if( isset( $_POST[ 'altoint' ] ) ) {
+        	update_post_meta( $post_id, 'altoint', sanitize_text_field( $_POST[ 'altoint' ] ) );
+    	}
+
     	/* ancho */
 		if( isset( $_POST[ 'ancho' ] ) ) {
         	update_post_meta( $post_id, 'ancho', sanitize_text_field( $_POST[ 'ancho' ] ) );
+    	}
+
+    	/* ancho interior */
+		if( isset( $_POST[ 'anchoint' ] ) ) {
+        	update_post_meta( $post_id, 'anchoint', sanitize_text_field( $_POST[ 'anchoint' ] ) );
     	}
 
     	/* largo */
@@ -190,6 +212,11 @@
     	/* profundidad */
 		if( isset( $_POST[ 'profundidad' ] ) ) {
         	update_post_meta( $post_id, 'profundidad', sanitize_text_field( $_POST[ 'profundidad' ] ) );
+    	}
+
+    	/* profundidad interior */
+		if( isset( $_POST[ 'profundidadint' ] ) ) {
+        	update_post_meta( $post_id, 'profundidadint', sanitize_text_field( $_POST[ 'profundidadint' ] ) );
     	}
 
     	/* tanque */
@@ -218,7 +245,7 @@
     	}
 	}
 
-	/* ahora si, guarda todas las dimensiones */ 
+	/* ahora si, guarda todas las dimensiones */
 	add_action('save_post', 'dimensiones_meta_save');
 
 	/* custom metabox carga de imagenes para slider */
@@ -264,12 +291,12 @@
 				)
 			);
 			wp_enqueue_script('meta-slide-script');
-		} 
+		}
 	}
 
 	add_action('admin_enqueue_scripts','slide_image_enqueue');
 
-	/* guarda el nuevo slide en la base de datos */	
+	/* guarda el nuevo slide en la base de datos */
 	function slide_meta_save($post_id){
 		/* estado de guardado */
 		$is_autosave = wp_is_post_autosave($post_id);
@@ -282,7 +309,7 @@
 		}
 
 		if(isset($_POST['meta-slide'])) {
-		   	update_post_meta($post_id,'meta-slide',$_POST['meta-slide']);		   	
+		   	update_post_meta($post_id,'meta-slide',$_POST['meta-slide']);
 		}
 
 	}
