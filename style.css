@@ -157,7 +157,7 @@ h4 {
 }
 #portada > div:hover {
 	background: rgba(0,0,0,0.85);
-}
+}	
 #portada img {
 	position: absolute;
 	left: -135%;
@@ -300,3 +300,11 @@ h3 {
 	margin: 0;
 }
 /* paginas de producto */
+/* footer */
+footer {
+	height: 50vh;
+	background: #414141;
+	width: 100%;
+	box-shadow: inset 0px 0px 15px #000;
+}
+/* footer */
