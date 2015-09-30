@@ -22,9 +22,10 @@ body, #single {
 /* header */
 #single header {
 	width: 100%;
-	z-index: 2;
+	z-index: 9999;
 	background: rgba(255,255,255,1);
 	box-shadow: #414141 0 0 15px;
+	overflow: hidden;
 }
 #home header {
 	width: 100%;
@@ -337,4 +338,16 @@ footer {
 	width: 100%;
 	box-shadow: inset 0px 0px 15px #000;
 }
+footer h3 {
+	color: #FFF;
+}
 /* footer */
+/* blocks */
+.cuarto {
+	width: 23%;
+	padding: 1%;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+/* blocks */
