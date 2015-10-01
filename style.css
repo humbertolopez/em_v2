@@ -416,6 +416,11 @@ footer h2 {
 	float: left;
 	overflow: hidden;
 	max-width: 25%;
+	transition: overflow .3s;
+}
+.portada-header:hover {
+	overflow: visible;
+	z-index: 888;
 }
 .home-link {
 	padding: 0;
@@ -450,10 +455,12 @@ figure {
 	opacity: 0.8;
 	transition: opacity .3s;
 	transition: box-shadow .3s;
+	z-index: 333;
 }
 .gallery-icon:hover {
 	box-shadow: 0px 0px 5px #414141;
 	opacity: 1.0;
 	border: 1px solid #fff;
+	z-index: 333;
 }
 /* galería */

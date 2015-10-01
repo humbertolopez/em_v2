@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/nivo-slider.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/prettyPhoto.css">
 	<!-- styles -->
 	<!-- este es el header para single pages -->
 </head>
