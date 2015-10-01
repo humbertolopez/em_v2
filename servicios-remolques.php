@@ -1,4 +1,4 @@
-<div class="contentleft">
+<div class="contentleft">	
 	<table id="serviciosremolque">
 		<?php
 			/* checa si hay area de damas tiene valor */
@@ -6,7 +6,7 @@
 			if(!empty($key_damas)){
 				?>
 				<tr>
-					<th colspan="3"><h3>Área de damas</h3></th>
+					<th colspan="3"><h2>Área de damas</h2></th>
 				</tr>
 				<?php
 			}
@@ -37,7 +37,7 @@
 			if(!empty($key_caballeros)){
 				?>
 				<tr>
-					<th colspan="3"><h3>Área de caballeros</h3></th>
+					<th colspan="3"><h2>Área de caballeros</h2></th>
 				</tr>
 				<?php
 			}

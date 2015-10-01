@@ -3,6 +3,10 @@
 	/* soporte de thumbs */
 	add_theme_support('post-thumbnails');
 
+	/* imagen portada para singles */
+	add_image_size('portada',9999,450);
+	add_image_size('gallery',150,400,true);
+
 	/* metabox para remolques */
 	function remolques_custom_meta() {
 		add_meta_box('remolques_meta', 'Servicios en Remolques', 'remolques_meta_callback', 'post','side','high');
@@ -315,5 +319,20 @@
 	}
 
 	add_action('save_post','slide_meta_save');
+
+	/* quita las galleries del loop principal */
+	function  strip_shortcode_gallery( $content ) {
+	    preg_match_all( '/'. get_shortcode_regex() .'/s', $content, $matches, PREG_SET_ORDER );
+	    if ( ! empty( $matches ) ) {
+	        foreach ( $matches as $shortcode ) {
+	            if ( 'gallery' === $shortcode[2] ) {
+	                $pos = strpos( $content, $shortcode[0] );
+	                if ($pos !== false)
+	                    return substr_replace( $content, '', $pos, strlen($shortcode[0]) );
+	            }
+	        }
+	    }
+	    return $content;
+	}
 
 ?>

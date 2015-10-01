@@ -19,5 +19,5 @@
 	<?php get_template_part('info-contacto'); ?>
 	<!-- /contacto -->
 	<!-- header -->
-	<?php get_template_part('header-part'); ?>
+	<?php get_template_part('header-part-single'); ?>
 	<!-- /header -->

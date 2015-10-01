@@ -1,4 +1,4 @@
-<h3>Dimensiones</h3>
+<h2>Dimensiones</h2>
 <table id="dimensiones">
 	<?php
 		/* checa si alto tiene valor */
