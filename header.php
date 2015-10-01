@@ -3,7 +3,19 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title><?php bloginfo(''); ?></title>
+	<title>
+		<?php 
+			if(is_home())
+				{ echo bloginfo("name"); echo " — "; echo bloginfo("description"); }
+			elseif(is_category("remolques") or is_category("portatiles"))
+				{ echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			elseif(in_category("remolques"))
+				{ echo "Remolque de sanitarios "; echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			elseif(in_category("portatiles"))
+				{ echo "Baño portátil modelo "; echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			else { echo wp_title(" — ", false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+		?>
+	</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/magia.js"></script>
 	<!-- styles -->

@@ -1,3 +1,9 @@
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/magia.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.nivo.slider.pack.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/slider.js"></script>
+	<!-- scripts -->
 	<footer>
 		<div class="innerproducto">
 			<div class="cuarto">

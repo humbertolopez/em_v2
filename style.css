@@ -14,14 +14,15 @@ body, #single {
 	background: url(img/bg.svg) no-repeat center top;
 	background-size: 100% auto;
 }
-.block {
+.block, .grid {
 	display: block;
 	overflow: hidden;
 	clear: both;
 }
 .diagrama {
-	margin-left: 0;
-	margin-right: 0;
+	text-align: center;
+}
+.diagrama img {
 	max-width: 285px;
 	height: auto;
 }
@@ -31,7 +32,8 @@ body, #single {
 	z-index: 9999;
 	background: rgba(255,255,255,1);
 	box-shadow: #414141 0 0 15px;
-	overflow: hidden;
+	position: absolute;
+	top: 70px;
 }
 #home header {
 	width: 100%;
@@ -50,11 +52,11 @@ body, #single {
 	width: 100%;
 	position: fixed;
 	margin: auto;
-	z-index: 666;
+	z-index: 999;
 }
 #single .info-contacto {
 	width: 100%;
-	z-index: 666;
+	z-index: 999;
 	margin: auto;
 	display: block;
 	clear: both;
@@ -249,11 +251,11 @@ h1, h2, h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
 }
-.content h1, .content p {
+.content h1, .content p, .contentcategory p {
 	margin-left: 1.5%;
 	margin-right: 1.5%;
 }
-.content p.line {
+.content p.line, .contentcategory p.line {
 	border-bottom: solid 1px #77C043;
 	padding-bottom: 1.5em;
 }
@@ -263,12 +265,16 @@ h1, h2, h3 {
 	padding: 1.5%;
 	border-bottom: solid 1px #77C043;
 }
-#producto {
+#producto, #remolques, #portatiles, #presidenciales {
 	width: 100%;
+	margin-top: 70px;
 }
-#producto h1 {
+#producto h1, #remolques h1, #portatiles h1, #presidenciales h1 {
 	font-size: 2.25em;
 	margin: 0 0 1em 0;
+}
+#remolques h2 {
+	text-align: center;
 }
 p {
 	font-size: 0.85em;
@@ -277,17 +283,17 @@ p {
 h3 {
 	font-size: 1.15em;
 }
-#producto ul {
+#producto ul, #presidenciales ul, #page ul {
 	margin: 0;
 	padding: 0;
 }
-#producto li {
+#producto li, #presidenciales li, #page li {
 	margin: 0 0 0.5em 0;
 	padding: 0;
 	font-size: 0.85em;
 	list-style: none;
 }
-#producto li:before {
+#producto li:before, #presidenciales li:before, #page li:before {
 	content: "◊ ";
 	color: #77C043;
 }
@@ -304,6 +310,11 @@ h3 {
 	padding: 1.5% 0;
 	position: relative;
 }
+.innerslider {
+	max-width: 1140px;
+	margin: auto;
+	position: relative;
+}
 #dimensiones {
 	border: 0;
 	border-spacing: 0;
@@ -318,7 +329,7 @@ h3 {
 	background: #f1f1f1;
 	border: 0;
 }
-#serviciosremolque {
+#serviciosremolque, #serviciosremolquecategory {
 	border: 0;
 	border-collapse: collapse;
 	margin: auto;
@@ -326,7 +337,7 @@ h3 {
 #serviciosremolque td, #serviciosremolque th {
 	padding: 10px 0;
 }
-#serviciosremolque th {
+#serviciosremolque th, #serviciosremolquecategory th {
 	border-bottom: solid 1px #77C043;
 }
 #serviciosremolque td img {
@@ -339,6 +350,17 @@ h3 {
 }
 #serviciosremolque h2 {
 	margin: 0;
+}
+#serviciosremolquecategory td, serviciosremolquecategory th {
+	padding: 5px 0;
+}
+#serviciosremolquecategory td img {
+	height: 25px;
+	width: auto;
+	margin: 0 3px;
+}
+#serviciosremolquecategory td {
+	font-size: 0.75em;
 }
 /* paginas de producto */
 /* footer */
@@ -365,11 +387,22 @@ footer h2 {
 .inner-contentleft:hover {
 	box-shadow: 0px 0px 5px #414141;
 }
+.sameheight {
+	height: 455px;
+	background: #fff;
+}
+.item-align {
+	text-align: center;
+	background: #fff;
+}
 .content {
 	width: 95%;
 	padding: 2.5%;	
 	background: #FFF;
 	border: 1px solid #ccc;
+}
+#page .content {
+	margin-top: 70px;
 }
 .cuarto {
 	width: 23%;

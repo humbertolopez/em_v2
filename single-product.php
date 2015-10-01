@@ -42,8 +42,8 @@
 			<?php
 				if(in_category('remolques')) {
 					?>
-					<p>
-						<img class="diagrama block" src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
+					<p class="diagrama">
+						<img src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
 					</p>
 					<?
 				}
@@ -53,8 +53,8 @@
 		<?php if(in_category('portatiles')){
 			?>
 				<div class="contentleft">
-					<p>
-						<img class="diagrama block" src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
+					<p class="diagrama">
+						<img src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
 					</p>
 					<h2>Usos.</h2>
 					<ul>

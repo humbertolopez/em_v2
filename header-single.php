@@ -3,12 +3,23 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title><?php bloginfo(''); ?></title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/magia.js"></script>
+	<title>
+		<?php 
+			if(is_home())
+				{ echo bloginfo("name"); echo " — "; echo bloginfo("description"); }
+			elseif(is_category("remolques") or is_category("portatiles"))
+				{ echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			elseif(in_category("remolques"))
+				{ echo "Remolque de sanitarios "; echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			elseif(in_category("portatiles"))
+				{ echo "Baño portátil modelo "; echo wp_title(" — ",false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+			else { echo wp_title(" — ", false, right); echo bloginfo("name"); echo " "; echo bloginfo("description"); }
+		?>
+	</title>
 	<!-- styles -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/nivo-slider.css">
 	<!-- styles -->
 	<!-- este es el header para single pages -->
 </head>
