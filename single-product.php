@@ -14,16 +14,17 @@
 			}
 		?>
 		<div class="single-header block">
-			<!-- el thumb -->
+			<!-- 
 			<div class="portada-header">
 				<?php the_post_thumbnail('portada'); ?>
 			</div>
+			el thumb -->
 			<!-- comienza gallery -->
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 				<?php echo get_post_gallery(); ?>
 			<?php endwhile; endif; wp_reset_postdata(); ?>
 		</div>
-		<div class="contentleft">
+		<div class="contentleft bg-fff">
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<?php
 			    $content = strip_shortcode_gallery( get_the_content() );                                        
@@ -38,7 +39,7 @@
 			<?php
 			}
 		?>
-		<div class="contentleft">
+		<div class="contentleft bg-fff">
 			<?php
 				if(in_category('remolques')) {
 					?>
@@ -52,7 +53,7 @@
 		</div>
 		<?php if(in_category('portatiles')){
 			?>
-				<div class="contentleft">
+				<div class="contentleft bg-fff">
 					<p class="diagrama">
 						<img src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
 					</p>

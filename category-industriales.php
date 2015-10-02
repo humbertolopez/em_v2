@@ -14,7 +14,7 @@
 			$cat_query = new WP_Query($args);
 			if($cat_query->have_posts()) : while($cat_query->have_posts()) : $cat_query->the_post();
 		?>
-		<div class="contentleft inner-contentleft">
+		<div class="contentleft inner-contentleft bg-fff">
 			<h2><?php the_title(); ?></h2>
 			<?php the_content(); ?>
 		</div>

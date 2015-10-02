@@ -1,4 +1,4 @@
-<div class="contentleft">	
+<div class="contentleft bg-fff">	
 	<table id="serviciosremolque">
 		<?php
 			/* checa si hay area de damas tiene valor */
