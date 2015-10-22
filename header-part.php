@@ -28,10 +28,10 @@
 				</ul>
 			</li>
 			<li class="menu-item">
-				<a href="<?php bloginfo('url'); ?>/#empresa">La Empresa</a>
+				<a href="#empresa">La Empresa</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php bloginfo('url'); ?>/#contacto">Contacto</a>
+				<a href="#contacto">Contacto</a>
 			</li>
 		</ul>
 	</div>

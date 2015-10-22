@@ -8,7 +8,7 @@
 				<?php echo get_post_gallery(); ?>
 			<?php endwhile; endif; wp_reset_postdata(); ?>
 		</div>
-		<div class="singlecontentleft block bg-fff">
+		<div class="singlecontentfull block bg-fff">
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<?php
 			    $content = strip_shortcode_gallery( get_the_content() );                                        
