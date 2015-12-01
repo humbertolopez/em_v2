@@ -86,7 +86,7 @@ body, #single {
 }
 .menu-item {
 	display: table-cell;
-	padding: 15px;
+	padding: 20px 15px;
 	position: relative;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
@@ -126,7 +126,7 @@ body, #single {
 }
 .logo {
 	float: left;
-	height: 32px;
+	height: 42px;
 	width: auto;
 	margin: 10px;
 }
@@ -141,20 +141,24 @@ h4 {
 /* header */
 /* portada */
 #portada {
-	width: 100%;
+	width: 1140px;
+	margin: auto;
 }
 .industriales, .eventos, .especiales, .empresa {
 	width: 25%;
-	height: 100vh;
-	max-height: 1080px;
+	height: 75vh;
 	float: left;
 	position: relative;
 	overflow: hidden;
 }
+.portadatitle {
+	width: 100%;
+	height: 25vh;
+}
 #portada div:hover img {
 	height: 110%;
 	width: auto;
-	opacity: 0.75;
+	opacity: 0.55;
 }
 #portada div:hover h1 {
 	border-bottom: 1px solid #fff;
@@ -164,17 +168,21 @@ h4 {
 	padding: 0;
 	font-size: 1.15em;
 }
-#portada > div {
+#portada > div:nth-child(-n+4) {
 	transition: background .35s;
 }
-#portada > div:hover {
+#portada > div:hover:nth-child(-n+4) {
+	background: rgba(0,0,0,0.55);
+}
+#portada > div:nth-child(-n+4) {
 	background: rgba(0,0,0,0.85);
-}	
+}
 #portada img {
 	position: absolute;
 	left: -135%;
 	height: 100%;
 	width: auto;
+	opacity: 0.75;
 	transition: height .35s,  opacity .35s;
 }
 #portada a {
@@ -194,7 +202,7 @@ h4 {
 	font-weight: 300;
 	z-index: 1;
 	color: #fff;
-	text-shadow: 0 0 15px #000;
+	text-shadow: 0 0 5px #000;
 	text-align: center;
 	transition: border-bottom .55s;
 }
@@ -204,7 +212,7 @@ h4 {
 	font-weight: 300;
 	text-align: center;	
 	color: #fff;
-	text-shadow: 0 0 15px #000;
+	text-shadow: 0 0 5px #000;
 	opacity: 0.0;
 	transition: opacity .55s;
 	transition: padding .55s;
@@ -289,17 +297,27 @@ p {
 h3 {
 	font-size: 1.15em;
 }
-#producto ul, #presidenciales ul, #page ul, .tercio-empresa ul {
+footer h3 {
+	color: #77C043;
+}
+footer li a, footer p {
+	color: #fff;
+	text-decoration: none;
+}
+footer li a:hover {
+	text-decoration: underline;
+}
+#producto ul, #presidenciales ul, #page ul, .tercio-empresa ul, footer ul {
 	margin: 0;
 	padding: 0;
 }
-#producto li, #presidenciales li, #page li, .tercio-empresa li {
+#producto li, #presidenciales li, #page li, .tercio-empresa li, footer li {
 	margin: 0 0 0.5em 0;
 	padding: 0;
 	font-size: 0.85em;
 	list-style: none;
 }
-#producto li:before, #presidenciales li:before, #page li:before, .tercio-empresa li:before {
+#producto li:before, #presidenciales li:before, #page li:before, .tercio-empresa li:before, footer li:before {
 	content: "◊ ";
 	color: #77C043;
 }
@@ -309,6 +327,7 @@ h3 {
 	padding: 2.5%;
 	margin: 1.5%;
 	border: 1px solid #CCC;
+	position: relative;
 }
 .singlecontentleft {
 	width: 25%;
@@ -383,7 +402,6 @@ h3 {
 /* paginas de producto */
 /* footer */
 footer {
-	height: 50vh;
 	background: #414141;
 	width: 100%;
 	box-shadow: inset 0px 0px 15px #000;
@@ -407,6 +425,20 @@ footer h2 {
 }
 .inner-contentleft:hover p.p-icon {
 	border-bottom: solid 1px #77C043;
+}
+.inner-contentleft:hover div.irbloque {
+	opacity: 1.0;
+}
+.irbloque {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: #77C043;
+	color: #fff;
+	text-align: center;
+	opacity: 0.0;
+	transition: opacity .3s;
 }
 .sameheight {
 	height: 455px;

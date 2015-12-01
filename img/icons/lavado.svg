@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="75.942001"
-   height="100"
+   width="30.376801"
+   height="40"
    id="svg4688"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 6">
+   sodipodi:docname="lavado.svg">
   <defs
      id="defs4690" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="22.25671"
-     inkscape:cy="104.28572"
+     inkscape:zoom="0.7"
+     inkscape:cx="-107.81011"
+     inkscape:cy="55.693262"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,8 +34,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="504"
-     inkscape:window-height="423"
+     inkscape:window-width="1493"
+     inkscape:window-height="749"
      inkscape:window-x="50"
      inkscape:window-y="50"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,11 +55,11 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-327.74329,-536.6479)">
+     transform="translate(-327.74329,-596.6479)">
     <g
        id="g4633"
        style="fill:#77c043;fill-opacity:1"
-       transform="translate(327.74329,536.6479)">
+       transform="matrix(0.4,0,0,0.4,327.74329,596.6479)">
       <path
          id="path4621"
          d="m 11.386,11.414 c 2.1,0 3.758,-1.714 3.758,-3.802 0,-2.071 -1.658,-3.771 -3.758,-3.771 -2.087,0 -3.772,1.701 -3.772,3.771 0,2.088 1.685,3.802 3.772,3.802 m 11.079,0 c 2.088,0 3.774,-1.714 3.774,-3.802 0,-2.071 -1.687,-3.771 -3.774,-3.771 -2.071,0 -3.757,1.701 -3.757,3.771 0,2.088 1.687,3.802 3.757,3.802 M 72.488,0 c 1.906,0 3.454,1.533 3.454,3.426 V 15.172 H 0.179 V 3.454 c 0,-1.893 1.548,-3.44 3.427,-3.44 L 72.488,0 z"

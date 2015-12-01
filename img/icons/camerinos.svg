@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="59.99894"
-   height="58.471115"
+   width="41.045181"
+   height="40"
    id="svg4963"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 17">
+   sodipodi:docname="camerinos.svg">
   <defs
      id="defs4965" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-177.14339"
-     inkscape:cy="194.94985"
+     inkscape:zoom="0.7"
+     inkscape:cx="-92.713832"
+     inkscape:cy="94.516257"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,8 +36,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1049"
      inkscape:window-height="740"
-     inkscape:window-x="25"
-     inkscape:window-y="25"
+     inkscape:window-x="250"
+     inkscape:window-y="250"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4968">
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,10 +55,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-527.14339,-668.84091)">
+     transform="translate(-527.14339,-687.31202)">
     <g
        id="g3241"
-       transform="translate(680.14239,687.07603)"
+       transform="matrix(0.68409845,0,0,0.68409845,631.80977,699.78664)"
        style="fill:#77c043;fill-opacity:1">
       <path
          inkscape:connector-curvature="0"

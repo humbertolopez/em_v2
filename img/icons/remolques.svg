@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="95.000038"
-   height="56.026001"
+   width="67.825676"
+   height="40"
    id="svg3085"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 2">
+   sodipodi:docname="remolques.svg">
   <defs
      id="defs3087">
     <color-profile
@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="837.94013"
-     inkscape:cy="-572.87479"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-2.2933044"
+     inkscape:cy="28.88181"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(146.19154,-200.54075)">
+     transform="translate(146.19154,-216.56675)">
     <rect
        style="fill:#000000;display:none"
        x="521.19263"
@@ -72,7 +72,7 @@
        id="rect3239" />
     <g
        id="g4562"
-       transform="translate(-1074.2857,114.28571)">
+       transform="matrix(0.71395421,0,0,0.71395421,-808.80827,154.9846)">
       <circle
          style="fill:#77c043;fill-opacity:1"
          transform="translate(925.59416,64.268038)"
@@ -176,7 +176,7 @@
                id="path3512" />
             <polygon
                style="fill:#000000"
-               points="-166.149,44.133 -166.292,43.991 -158.013,35.787 -157.871,35.929 "
+               points="-157.871,35.929 -166.149,44.133 -166.292,43.991 -158.013,35.787 "
                id="polygon3514" />
           </g>
         </g>

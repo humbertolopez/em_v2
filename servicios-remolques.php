@@ -91,7 +91,7 @@
 				?>
 				<tr>
 					<td><?php echo $key_areadescanso; ?> x</td>
-					<td><img src="<?php echo get_template_directory_uri(); ?>/img/areadescanso.svg"></td>
+					<td><img src="<?php echo get_template_directory_uri(); ?>/img/salaespera.svg"></td>
 					<td>Área de descanso</td>
 				</tr>
 				<?php

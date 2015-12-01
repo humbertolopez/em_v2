@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="89.463821"
-   height="35"
+   width="107.35659"
+   height="42"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Escumovil_Logo_RGB.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="C:\Users\USER\Documents\Humberto López\2014\Diseño\Escumovil\Escumovil_Logo_RGB_Colores.png"
    inkscape:export-xdpi="89.954453"
    inkscape:export-ydpi="89.954453">
@@ -34,8 +34,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="439.26841"
-     inkscape:cy="136.20322"
+     inkscape:cx="439.2684"
+     inkscape:cy="136.20321"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,10 +65,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-145.70408,-613.98145)">
+     transform="translate(-145.70409,-606.98145)">
     <g
        id="g3003"
-       transform="matrix(0.19762874,0,0,0.19762874,116.90877,520.72406)"
+       transform="matrix(0.23715449,0,0,0.23715449,111.14971,495.07258)"
        inkscape:export-filename="C:\Users\USER\Google Drive\Escumovil\2015\Web\escumovil_v2\img\logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">

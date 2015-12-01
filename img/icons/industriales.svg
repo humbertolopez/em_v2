@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="90.000252"
-   height="80.429367"
+   width="44.759895"
+   height="40"
    id="svg4923"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 15">
+   sodipodi:docname="industriales.svg">
   <defs
      id="defs4925" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-67.857014"
-     inkscape:cy="-39.785316"
+     inkscape:zoom="1.4"
+     inkscape:cx="319.43633"
+     inkscape:cy="-64.385829"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,11 +34,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="504"
-     inkscape:window-height="423"
-     inkscape:window-x="250"
-     inkscape:window-y="250"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4928">
     <rdf:RDF>
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,10 +55,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-417.85701,-412.1475)">
+     transform="translate(-417.85701,-452.57686)">
     <g
        id="g3390"
-       transform="translate(412.85676,402.3635)"
+       transform="matrix(0.49733078,0,0,0.49733078,415.37023,447.71098)"
        style="fill:#77c043;fill-opacity:1">
       <path
          style="fill:#77c043;fill-opacity:1"

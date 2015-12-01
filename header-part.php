@@ -24,11 +24,11 @@
 				<a href="#especiales">Proyectos Especiales</a>
 				<ul class="sub-menu">
 					<li class="sub-menu-item"><a href="<?php bloginfo('url'); ?>/publicidad">Remolques con Publicidad</a></li>
-					<li class="sub-menu-item"><a href="<?php bloginfo('url'); ?>/">Baños Urbanos</a></li>
+					<li class="sub-menu-item"><a href="<?php bloginfo('url'); ?>/urbanos">Baños Urbanos</a></li>
 				</ul>
 			</li>
 			<li class="menu-item">
-				<a href="#empresa">La Empresa</a>
+				<a href="<?php bloginfo('url'); ?>/la-empresa">La Empresa</a>
 			</li>
 			<li class="menu-item">
 				<a href="#contacto">Contacto</a>

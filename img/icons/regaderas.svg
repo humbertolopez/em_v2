@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="56.02169"
+   width="45.696587"
+   height="40"
    id="svg4853"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 13">
+   sodipodi:docname="regaderas.svg">
   <defs
      id="defs4855" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
      inkscape:cx="-18"
-     inkscape:cy="59.439417"
+     inkscape:cy="59.439419"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,8 +34,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="504"
-     inkscape:window-height="423"
+     inkscape:window-width="1437"
+     inkscape:window-height="742"
      inkscape:window-x="200"
      inkscape:window-y="200"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,10 +55,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-368,-535.77991)">
+     transform="translate(-368,-551.8016)">
     <g
        id="g3138"
-       transform="translate(368,531.7906)"
+       transform="matrix(0.71400914,0,0,0.71400914,368,548.9532)"
        style="fill:#77c043;fill-opacity:1">
       <path
          inkscape:connector-curvature="0"

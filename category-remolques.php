@@ -19,6 +19,9 @@
 			<a class="home-link" href="<?php the_permalink(); ?>">
 				<h2><?php the_title(); ?></h2>
 				<?php get_template_part('servicios-remolques-category'); ?>
+				<div class="irbloque">
+					<p>→</p>
+				</div>
 			</a>
 		</div>
 		<?php endwhile; endif; ?>

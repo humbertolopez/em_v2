@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="54.556999"
-   height="100"
+   width="21.8228"
+   height="40"
    id="svg4734"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 9">
+   sodipodi:docname="portatiles.svg">
   <defs
      id="defs4736" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="11.56421"
-     inkscape:cy="132.85715"
+     inkscape:zoom="1"
+     inkscape:cx="-169.05599"
+     inkscape:cy="108.35661"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,8 +34,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="504"
-     inkscape:window-height="423"
+     inkscape:window-width="1500"
+     inkscape:window-height="775"
      inkscape:window-x="100"
      inkscape:window-y="100"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,10 +55,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-338.43579,-565.21933)">
+     transform="translate(-338.43579,-625.21933)">
     <path
        id="path3127"
-       d="m 365.71479,565.21933 c -15.065,0 -27.279,5.853 -27.279,13.073 v 81.764 2.93 2.233 h 4.597 v -2.233 h 45.351 v 2.233 h 4.609 v -2.233 -2.93 -81.764 c 0,-7.22 -12.213,-13.073 -27.278,-13.073 z m 20.195,54.563 h -3.235 v -10.565 h 3.235 v 10.565 z m -44.03,-41.49 c 0,-4.017 9.069,-9.629 23.834,-9.629 14.765,0 23.835,5.612 23.835,9.629 h -47.669 z"
+       d="m 349.34739,625.21933 c -6.026,0 -10.9116,2.3412 -10.9116,5.2292 v 32.7056 1.172 0.8932 h 1.8388 v -0.8932 h 18.1404 v 0.8932 h 1.8436 v -0.8932 -1.172 -32.7056 c 0,-2.888 -4.8852,-5.2292 -10.9112,-5.2292 z m 8.078,21.8252 h -1.294 v -4.226 h 1.294 v 4.226 z m -17.612,-16.596 c 0,-1.6068 3.6276,-3.8516 9.5336,-3.8516 5.906,0 9.534,2.2448 9.534,3.8516 h -19.0676 z"
        inkscape:connector-curvature="0"
        style="fill:#77c043;fill-opacity:1" />
   </g>

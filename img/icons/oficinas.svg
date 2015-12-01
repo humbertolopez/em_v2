@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="82.958"
-   height="79.034004"
+   width="41.985981"
+   height="40"
    id="svg4784"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 11">
+   sodipodi:docname="oficinas.svg">
   <defs
      id="defs4786" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-77.09243"
-     inkscape:cy="76.659857"
+     inkscape:zoom="1.4"
+     inkscape:cx="40.787859"
+     inkscape:cy="80.705257"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,8 +34,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="504"
-     inkscape:window-height="423"
+     inkscape:window-width="1336"
+     inkscape:window-height="704"
      inkscape:window-x="150"
      inkscape:window-y="150"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,9 +55,9 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-427.09243,-529.98804)">
+     transform="translate(-427.09243,-569.02204)">
     <g
-       transform="translate(-541.43916,282.19808)"
+       transform="matrix(0.50611129,0,0,0.50611129,-63.092342,443.61274)"
        id="g4749">
       <ellipse
          transform="translate(959.89259,233.02496)"
@@ -117,7 +117,7 @@
       <polygon
          transform="translate(959.89259,233.02496)"
          id="polygon3429"
-         points="12.177,56.553 88.059,56.553 88.059,93.799 91.597,93.799 91.597,56.553 91.597,54.644 91.597,50.248 8.639,50.248 8.639,54.644 8.639,56.553 8.639,93.799 12.177,93.799 "
+         points="91.597,56.553 91.597,54.644 91.597,50.248 8.639,50.248 8.639,54.644 8.639,56.553 8.639,93.799 12.177,93.799 12.177,56.553 88.059,56.553 88.059,93.799 91.597,93.799 "
          style="fill:#77c043;fill-opacity:1" />
       <path
          id="path3431"
@@ -127,12 +127,12 @@
       <polygon
          transform="translate(959.89259,233.02496)"
          id="polygon3433"
-         points="51.784,48.983 51.784,49.024 59.739,49.024 58.739,46.156 55.609,46.156 53.187,29.042 30.685,29.016 28.855,46.156 25.633,46.156 24.633,49.024 32.589,49.024 32.589,48.483 32.961,43.582 34.352,43.619 33.95,48.983 50.331,48.983 49.711,43.551 51.142,43.551 51.757,48.983 "
+         points="55.609,46.156 53.187,29.042 30.685,29.016 28.855,46.156 25.633,46.156 24.633,49.024 32.589,49.024 32.589,48.483 32.961,43.582 34.352,43.619 33.95,48.983 50.331,48.983 49.711,43.551 51.142,43.551 51.757,48.983 51.784,48.983 51.784,49.024 59.739,49.024 58.739,46.156 "
          style="fill:#77c043;fill-opacity:1" />
       <polygon
          transform="translate(959.89259,233.02496)"
          id="polygon3435"
-         points="23.122,40.867 23.122,49.056 21.145,49.056 21.145,40.867 22.167,38.817 "
+         points="22.167,38.817 23.122,40.867 23.122,49.056 21.145,49.056 21.145,40.867 "
          style="fill:#77c043;fill-opacity:1" />
     </g>
   </g>
