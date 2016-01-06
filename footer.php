@@ -5,15 +5,26 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/slider.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettyPhoto.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/prettyPhotoStart.js"></script>
+	<!-- seguimiento analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-47240966-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<!-- /seguimiento analytics -->
 	<!-- scripts -->
 	
 	<footer>
 		<div class="innerproducto block">
 			<div class="cuarto">
-				<h3>Escumovil®</h3>
 				<p>Somos Escumovil®, la organización número uno en renta y venta de sanitarios portátiles. Desde 1998.</p>
 				<h3>Servicios de clase mundial.</h3>
-				<p>Escumovil® pertenece a la PSAI (Portable Sanitation Association International), la cual se encarga de regular y promover los estándares para la industria de los sanitarios portátiles. Gracias a que formamos parte de esta Asociación, podemos garantizar la Calidad de Clase Mundial en todos nuestros productos y servicios.</p>
+				<p><img src="<?php echo get_template_directory_uri(); ?>/img/psailogo.svg" class="psai">Escumovil® pertenece a la PSAI (Portable Sanitation Association International), la cual se encarga de regular y promover los estándares para la industria de los sanitarios portátiles. Gracias a que formamos parte de esta Asociación, podemos garantizar la Calidad de Clase Mundial en todos nuestros productos y servicios.</p>
 			</div>
 			<div class="cuarto">
 				<h3>Productos Escumovil® para Eventos.</h3>

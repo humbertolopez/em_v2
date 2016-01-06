@@ -23,7 +23,7 @@
 			$cat_query = new WP_Query($args);
 			if($cat_query->have_posts()) : while($cat_query->have_posts()) : $cat_query->the_post();
 		?>
-		<div class="contentleft inner-contentleft">
+		<div class="contentleft">
 			<p class="diagrama">
 				<img src="<?php echo get_post_meta(get_the_ID(),'meta-slide',true) ?>">
 			</p>

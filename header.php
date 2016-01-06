@@ -21,6 +21,7 @@
 	<!-- styles -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic,700,300' rel='stylesheet' type='text/css'>
+	<link href="<?php bloginfo('url'); ?>/wp-content/plugins/contact-form-7/includes/css/styles.css" rel="stylesheet" type="text/css">
 	<!-- styles -->
 </head>
 

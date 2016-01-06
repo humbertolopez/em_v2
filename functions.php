@@ -6,6 +6,7 @@
 	/* imagen portada para singles */
 	add_image_size('portada',9999,450);
 	add_image_size('gallery',150,400,true);
+	add_image_size('gallerycarousel',9999,400);
 
 	/* metabox para remolques */
 	function remolques_custom_meta() {

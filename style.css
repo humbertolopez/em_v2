@@ -14,7 +14,7 @@ body, #single {
 	background: url(img/bg.svg) no-repeat center top;
 	background-size: 100% auto;
 }
-.block, .grid {
+.block {
 	display: block;
 	overflow: hidden;
 	clear: both;
@@ -266,8 +266,7 @@ h1, h2, h3 {
 	font-weight: 300;
 }
 .content h1, .content p, .contentcategory p {
-	margin-left: 1.5%;
-	margin-right: 1.5%;
+	margin: 15px 0;
 }
 .content p.line, .contentcategory p.line {
 	border-bottom: solid 1px #77C043;
@@ -321,19 +320,39 @@ footer li a:hover {
 	content: "◊ ";
 	color: #77C043;
 }
+.grid {
+	/*-webkit-column-width: 314px;
+	-moz-column-width: 314px;
+	column-width: 314px;
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+	column-gap: 10px;*/
+	display: block;
+	overflow: hidden;
+	margin: auto;
+}
 .contentleft {
-	width: 25%;
-	float: left;
-	padding: 2.5%;
-	margin: 1.5%;
+	width: 311px;
+	padding: 15px 15px 50px 15px;
 	border: 1px solid #CCC;
 	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
 }
 .singlecontentleft {
 	width: 25%;
 	padding: 2.5%;
 	margin: 1.5%;
 	border: 1px solid #CCC;
+}
+.contentleftfifty {
+	width: 41%;
+	float: left;
+	padding: 2.5%;
+	margin: 1.5%;
+	border: 1px solid #CCC;
+	position: relative;
 }
 .singlecontentfull {
 	width: 91%;
@@ -452,8 +471,8 @@ footer h2 {
 	background: #fff;
 }
 .content {
-	width: 94%;
-	padding: 2.5%;	
+	width: 1098px;
+	padding: 20px;	
 	background: #FFF;
 	border: 1px solid #ccc;
 }
@@ -508,6 +527,10 @@ p.certyclientes img {
 p.certyclientesheight {
 	line-height: 103px;
 }
+img.psai {
+	float: left;
+	margin: 0 10px 5px 0;
+}
 /* blocks */
 /* galería */
 figure {
@@ -524,17 +547,31 @@ figure {
 	display: block;
 	clear: both;
 	overflow: hidden;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
 }
 .gallery-icon {
-	max-width: 25%;
-	height: 400px;
-	margin: 5px;
-	float: left;
+	/*max-width: 30%;
+	max-height: 400px;
+	float: left;*/
 	border: 1px solid #f1f1f1;
+	/*margin: 1.5%;*/
 	opacity: 0.8;
 	transition: opacity .3s;
 	transition: box-shadow .3s;
 	z-index: 333;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
 }
 .gallery-icon:hover {
 	box-shadow: 0px 0px 5px #414141;

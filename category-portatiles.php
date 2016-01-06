@@ -18,7 +18,10 @@
 		<div class="contentleft inner-contentleft item-align">
 			<a class="home-link" href="<?php the_permalink(); ?>">
 				<?php the_post_thumbnail('medium'); ?>
-				<h2><?php the_title(); ?></h2>			
+				<h2><?php the_title(); ?></h2>
+				<div class="irbloque">
+					<p>→</p>
+				</div>
 			</a>
 		</div>
 		<?php endwhile; endif; ?>
